@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Notes</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+      crossorigin="anonymous"
+    ></script>
+    <script src="app.js" defer></script>
+  </head>
+  <body class="bg-dark text-light">
+    <div class="container w-50 pt-5">
+      <h1>Заметки</h1>
+      <input
+        id="input"
+        class="form-control mb-2"
+        type="text"
+        placeholder="Введите название"
+      />
+      <button id="create" class="btn btn-outline-info w-100 mb-2">
+        Добавить
+      </button>
+      <ul id="list" class="list-group list-group-flush">
+        <!-- <li
+          class="list-group-item d-flex justify-content-between align-items-center"
+        >
+          <span>Название</span>
+          <span>
+            <span class="btn btn-small btn-success">&check;</span>
+            <span class="btn btn-small btn-danger">&times;</span>
+          </span>
+        </li> -->
+      </ul>
+    </div>
+  </body>
+</html>
